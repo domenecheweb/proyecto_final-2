@@ -1,0 +1,173 @@
+body
+{
+	width: 90%;
+	background:  #02010a;
+	margin: auto;
+	font-family: 'Dancing Script', cursive;
+}
+.contenedor
+	{
+	width: 100%;
+	margin: auto;
+	}	
+header
+	{background: #5b7989;
+	color: #FFFFFF;
+	border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+	/*flex*/
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	animation-name: animacion;
+	animation-duration: 1s;
+	}
+
+
+	article
+ 	{
+	background: #82c3a6;
+	width: 100%;
+	}
+	.principal
+{
+	box-shadow: 2px 2px 2px 2px #82c3a6;
+	-webkit-box-shadow: 2px 2px 2px 2px #02010a;
+	display:block;
+	margin:auto;
+	width: 50%;
+	box-sizing: border-box;
+}
+ 
+  #segundario
+  {
+	background: #d5c75f;
+	width: 100%;
+	margin: auto;
+	display: inline-block;
+}
+
+.segundaria
+{
+	box-shadow: 2px 2px 2px 2px #82c3a6;
+	-webkit-box-shadow: 2px 2px 2px 2px #02010a;
+	width: 35%;
+	margin: 45px;
+	display: inline-block;
+	padding: 10px;
+
+	
+	}
+#rotate:hover{
+	border:10%;
+	box-shadow: 0px 0px 15px 15px #82c3a6;
+	-webkit-box-shadow: 0px 0px 15px 15px #82c3a6;
+	transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	}
+#translate:hover{
+	border:50%;
+	box-shadow: 0px 0px 15px 15px #82c3a6 ;
+	-webkit-box-shadow: 0px 0px 15px 15px #82c3a6 ;
+	transform: translate(20px,-5px);
+	-webkit-transform: translate(20px,-5px)
+	}
+
+footer
+{
+	width: 100%;
+	background: 	#C6d5c5;
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+footer #contacto{
+	width: 25%;
+	height: auto;
+	
+	text-align: center;
+}
+footer #terminos
+{
+	width: 25%;
+	height: auto;
+	
+	text-align: center;
+}
+ footer #redes{
+	width: 25%;
+	height: auto;
+	
+	text-align: center;
+}
+ footer #propiedad
+{
+	width: 25%;
+	height: auto;
+	
+	text-align: center;
+}
+@keyframes animacion {
+150%{margin-top: 0%;}
+-5%{margin-top: 60%;}
+0%{margin-top: 100%;}
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 900px)
+	{
+
+		* { 
+margin:0 auto;}
+	.contendor{
+	width: 100%;
+
+	}
+	nav{width: 100%;
+	text-align: center; }
+		
+	
+	
+
+	img{
+	width: 100%;
+
+}
+	
+	footer #contacto{
+	width: 100%;
+	text-align: center;
+	}
+	footer #terminos
+	{
+	width: 100%;
+	text-align: center;}
+
+	footer #redes{
+	width: 100%;
+	text-align: center;
+	}
+	footer #propiedad
+	{
+	width: 100%;
+	text-align: center;
+	}
+
+}
+
+
+@media screen and (max-width: 901px){
+	img{
+		width: 50%;
+	}
+}
+
